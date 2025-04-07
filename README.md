@@ -1,10 +1,10 @@
-# 🔄 End-to-End ETL Pipeline on Google Cloud Platform
+#  End-to-End ETL Pipeline on Google Cloud Platform
 
 This project shows how to build a complete ETL pipeline using Google Cloud Platform (GCP). It uses Airflow (Cloud Composer) to schedule and manage data tasks, loads data into BigQuery, and visualizes the results in a Looker dashboard.
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
 - Extracts data from a MySQL database and a public currency exchange API
 - Transforms the data using Python and Pandas
@@ -16,7 +16,7 @@ This project shows how to build a complete ETL pipeline using Google Cloud Platf
 
 ---
 
-## 🛠️ Tools & Services
+##  Tools & Services
 
 | Purpose           | Tool / Service              |
 |-------------------|-----------------------------|
@@ -30,13 +30,9 @@ This project shows how to build a complete ETL pipeline using Google Cloud Platf
 
 ---
 
-## 🔁 ETL Pipeline Flow
-
-```mermaid
-graph TD
-    A[MySQL: Raw Tables] --> B[Airflow: Extract Task]
-    B --> C[Airflow: API Task (USD to THB)]
-    C --> D[Airflow: Transform with Pandas]
-    D --> E[Upload CSV to GCS]
-    E --> F[Load to BigQuery]
-    F --> G[Visualize in Looker Dashboard]
+## Looker Dashboard
+[Looker Dashboard](https://lookerstudio.google.com/reporting/b933c81c-849a-4538-916a-1a14ed36e76e)
+- Daily revenue in THB
+- Top-selling audiobooks
+- Customer distribution by country
+- Daily exchange rate tracking
