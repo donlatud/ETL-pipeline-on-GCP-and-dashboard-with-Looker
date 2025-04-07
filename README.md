@@ -32,10 +32,6 @@ This project shows how to build a complete ETL pipeline using Google Cloud Platf
 
 ## Looker Dashboard
 Link looker dashboard >> [Looker Dashboard](https://lookerstudio.google.com/reporting/b933c81c-849a-4538-916a-1a14ed36e76e)
-- Daily revenue in THB
-- Top-selling audiobooks
-- Customer distribution by country
-- Daily exchange rate tracking
 
 
 ---
