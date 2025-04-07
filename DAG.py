@@ -7,6 +7,7 @@ from airflow.utils.dates import days_ago
 import pandas as pd
 import requests
 
+
 MYSQL_CONNECTION = "mysql_r2de"  
 CONVERSION_RATE_URL = "https://r2de2-workshop-vmftiryt6q-ts.a.run.app/usd_thb_conversion_rate"
 
