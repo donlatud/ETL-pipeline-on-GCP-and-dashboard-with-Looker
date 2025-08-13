@@ -29,8 +29,3 @@ This project shows how to build a complete ETL pipeline using Google Cloud Platf
 | API Integration   | Currency Exchange API       |
 
 ---
-
-## Looker Dashboard
-Looker dashboard link >> [Looker Dashboard](https://lookerstudio.google.com/reporting/b933c81c-849a-4538-916a-1a14ed36e76e)
-
----
